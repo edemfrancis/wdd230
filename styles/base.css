@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #a1aff063;
     font-family: 'Roboto', sans-serif;
 }
@@ -19,10 +19,10 @@ header {
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
-header img{
+header img {
     border-radius: 20px;
 }
-header span{
+header span {
     font-size: 40px;
     margin: auto;
     text-align: center;
