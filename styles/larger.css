@@ -1,5 +1,10 @@
 @media screen and (min-width: 35rem) {
-    
+    #button{
+        display: none;
+    }
+    .horizontal-ul, .horizontal-ul.open{
+        display: flex;
+    }
     main {
         display: grid;
         grid-template-columns: 1fr;
@@ -19,7 +24,7 @@
         padding: 10px 20px;
     }
     section:hover{
-        background-color: rgb(202, 255, 191);
+        background-color: rgb(233, 163, 152);
     }
    
 }

@@ -27,8 +27,33 @@ header span {
     margin: auto;
     text-align: center;
 }
+
+#mode, #normal {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
+}
+#normal{
+    font-size: larger;
+    background-color: #f1d7d5d5;
+    top: 1.0rem;
+    right: 4rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+}
+.image{
+    width: 26px;
+}
+
+a{
+    text-decoration: none;
+}
+/* Navigation css is here */
  nav{
-    border: 1px solid lightgreen;
+    border: 1px solid #ffffff;
     display: block;
     text-decoration: none;
 }
@@ -40,7 +65,21 @@ nav a{
     border-radius: 5px;
 }
 nav a:hover{
-    background-color: rgb(233, 193, 186);
+    background-color: rgb(235, 188, 181);
+}
+
+#button::before {
+    content: "☰";
+}
+/* button  resize and other decoration added*/
+#button {
+    font-size: 1.75rem;
+    border: none;
+    background-color: #f1d7d5d5;
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+    top: right;
 }
 .name{
     display: block;
@@ -58,6 +97,20 @@ nav a:hover{
 ul{
     list-style: none;
 }
+
+/* display in the ul by the class attribute to hide it */
+.horizontal-ul{
+    display: none;
+}
+
+/* displaying the nav ul in block */
+.horizontal-ul.open{
+    display: block;
+}
+#button.open::before{
+    content: "X";
+}/*Navigaton editing ends here */
+
 h2, h1{
     text-align: center;
 }
@@ -85,3 +138,4 @@ footer{
     border-radius: 10px;
     margin: -3px;
 }
+
