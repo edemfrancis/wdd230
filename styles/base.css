@@ -57,9 +57,8 @@ a{
 }
 /* Navigation css is here */
  nav{
-    border: 1px solid #ffffff;
+    
     display: block;
-    text-decoration: none;
 }
 
 nav a{
@@ -92,8 +91,7 @@ nav a:hover{
 }
 .list{
     display: block;
-    text-decoration: none;
-    background-color: rgba(204, 78, 78, 0.377);
+    background-color: rgba(26, 26, 26, 0.377);
     padding: 1rem;
 }
 

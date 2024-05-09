@@ -1,0 +1,36 @@
+@media screen and (min-width: 42rem){
+    #button{display: none;}
+    #headerdesign, footer{
+        max-width: 98%;
+        margin: 0rem auto;
+        background-color: #d9ebda;
+    }
+    .horizontal, .horizontal.open{
+        display: flex;
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+
+    }
+    main{
+        max-width: 80%;
+    }
+    .section-3{
+        padding: 0.4rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;   
+    }
+    .join{
+        position: absolute;
+        top: 13rem;
+        left: 18rem ;
+
+    }
+    .event-weather{
+        padding: 0.4rem;
+        display: flex;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
