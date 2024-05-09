@@ -42,7 +42,11 @@ header span {
     top: 1.0rem;
     right: 4rem;
     margin: 0.5rem;
-    border-radius: 10px;
+    padding: 0.2rem;
+    border-radius: 4px;
+}
+#normal:hover{
+    background-color: rgb(233, 163, 152);
 }
 .image{
     width: 26px;
@@ -79,7 +83,6 @@ nav a:hover{
     cursor: pointer;
     width: 100%;
     text-align: right;
-    top: right;
 }
 .name{
     display: block;
