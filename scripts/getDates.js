@@ -1,6 +1,10 @@
 const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
 document.getElementById("todaysdate").textContent = new Date().toLocaleDateString('en-US', options);
 
+// week 3
+const visit = document.querySelector("#visit");
+let numOfVisitors = Number(window.localStorage.getItem("numOfVisitors-Listed")) || 0;
+
 const button = document.querySelector("#button");
 const ulList = document.querySelector(".horizontal-ul")
 
@@ -55,3 +59,15 @@ normalMode.addEventListener("click", () => {
 		modeButton.textContent = "🕶️";
     }
 })
+
+// week 03
+if (numOfVisitors !== 0){
+    visit.textContent = numOfVisitors;
+}
+else {
+    visit.textContent = `Hello this is your first time Visting. You're welcome 🥳`
+}
+numOfVisitors++;
+
+localStorage.setItem("numOfVisitors-Listed", numOfVisitors);
+
