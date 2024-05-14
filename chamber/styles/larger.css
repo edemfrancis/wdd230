@@ -8,7 +8,7 @@
     nav a{
         border-radius: 3px;
         display: block;
-        color: #ffffff;
+        color: #fd0101f8;
         background-color: #03a140;
         border: 1px solid rgb(0, 0, 0);
     }
@@ -76,7 +76,6 @@
         color: white;
     }
     .side-bar p{
-        background-color: cadetblue;
         padding: 2px;
     }
 }

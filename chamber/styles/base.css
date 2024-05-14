@@ -11,7 +11,7 @@
 #header{
     display: grid;
     grid-template-columns: 0.1fr 1.5fr 2fr;
-    background-color: #03a140;
+    background-color: #3fc572;
     color: white;
 }
 header{
@@ -161,7 +161,7 @@ main h2, main p{
     color: white;
 }
 .side-bar p{
-    background-color: cadetblue;
+    background-color: rgb(4, 21, 22);
     padding: 2px;
     color: white;
 
@@ -174,4 +174,18 @@ main h2, main p{
     display: flex;
     flex-direction: column;
     background-color: rgb(95, 121, 160);
+}
+
+img{
+    animation: fade 10s 0 2s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
 }
