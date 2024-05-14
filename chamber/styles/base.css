@@ -4,46 +4,50 @@
     box-sizing: border-box;
 }
 #headerdesign, main, footer{
-    max-width: 98%;
+    max-width: 940;
     margin: 0rem auto;
-    background-color: #d9ebda;
+
 }
 #header{
     display: grid;
-    grid-template-columns: 0.2fr 1fr;
+    grid-template-columns: 0.1fr 1.5fr 2fr;
+    background-color: #03a140;
+    color: white;
 }
 header{
+    display: block;
+}
+h1{
     display: block;
 }
 /* Nav editing */
 nav{
     text-align: center;
     margin: 0.1rem;
-    padding: 0.4rem;
+    padding: 0.2rem;
 }
 a{
     text-decoration: none;
 }
 ul {
     list-style: none;
-    gap: 1rem;
     border: 0.2rem;
 }
 nav a{
     border-radius: 3px;
     display: block;
     color: #0a0a0a;
-    background-color: #92c096;
+    background-color: #498f4f;
     margin: 0.1rem;
-    padding: 0.2rem;
+    padding: 0.097rem;
 }
 nav a:hover{
     background-color: rgb(151, 184, 85);
 }
-
 #button::before {
     content: "☰";
 }
+
 #button {
     font-size: 1.75rem;
     border: none;
@@ -65,7 +69,7 @@ nav a:hover{
 main{
     margin: 0 auto;
     padding: 1rem;
-    background-color: #77a87b;
+    background-color: #f7f5f5;
 }
 h2{
     color: white;
@@ -112,4 +116,62 @@ hr{
     margin: 0.5rem;
     padding: 0.5rem;
     background-color: rgba(203, 241, 207, 0.938);
+}
+footer div{
+    text-align: center;
+    background-color: #03a140;
+}
+
+/* discover css */
+.main{
+    border: 1px solid rgb(73, 49, 49);
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+main h2, main p{
+    text-align: center;
+    color: black;
+    font-size: Roboto;
+}
+.side-bar{
+    /* grid-template-columns: 1fr; */
+    background-color: white;
+}
+.side-bar img{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border-radius: 10px;
+}
+.side-bar img, .side-bar h3, .side-bar p{
+    margin: 0.1rem auto;
+    padding: 0.2rem;
+}
+.sided{
+    position: relative;
+}
+.sided h3{
+    position: absolute;
+    justify-content: end;
+    left: 90px;
+    top: 5px;
+    color: white;
+}
+.side-bar p{
+    background-color: cadetblue;
+    padding: 2px;
+    color: white;
+
+}
+#sided-1 img, #sided-1 p{
+    width: 100%;
+    border-radius: 10px;
+}
+#sided-1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(95, 121, 160);
 }
