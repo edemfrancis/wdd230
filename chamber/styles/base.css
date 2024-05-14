@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 #headerdesign, main, footer{
-    max-width: 940;
+    max-width: 940px;
     margin: 0rem auto;
 
 }
@@ -134,7 +134,7 @@ footer div{
 main h2, main p{
     text-align: center;
     color: black;
-    font-size: Roboto;
+    font-family: Roboto;
 }
 .side-bar{
     /* grid-template-columns: 1fr; */
