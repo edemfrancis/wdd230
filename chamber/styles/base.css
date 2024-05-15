@@ -10,7 +10,7 @@
 #header{
     display: grid;
     grid-template-columns: 0.1fr 1.5fr 2fr;
-    background-color: #6fce93;
+    background-color: #9ad4b1;
 }
 header{
     display: block;
