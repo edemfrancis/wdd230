@@ -6,13 +6,11 @@
 #headerdesign, main, footer{
     max-width: 940px;
     margin: 0rem auto;
-
 }
 #header{
     display: grid;
     grid-template-columns: 0.1fr 1.5fr 2fr;
-    background-color: #3fc572;
-    color: white;
+    background-color: #6fce93;
 }
 header{
     display: block;
@@ -155,7 +153,7 @@ main h2, main p{
 .sided h3{
     position: absolute;
     justify-content: end;
-    left: 70px;
+    left: 90px;
     top: 5px;
     color: white;
 }
