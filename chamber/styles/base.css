@@ -143,7 +143,6 @@ main h2, main p{
 .side-bar img{
     width: 100%;
     height: auto;
-    background-color: black;
     border-radius: 10px;
 }
 .side-bar img, .side-bar h3, .side-bar p{
@@ -156,7 +155,7 @@ main h2, main p{
 .sided h3{
     position: absolute;
     justify-content: end;
-    left: 90px;
+    left: 70px;
     top: 5px;
     color: white;
 }
@@ -166,6 +165,7 @@ main h2, main p{
     color: white;
 
 }
+h3{color: white;}
 #sided-1 img, #sided-1 p{
     width: 100%;
     border-radius: 10px;
@@ -179,7 +179,12 @@ main h2, main p{
 img{
     animation: fade 10s 0 2s;
 }
-
+#date{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(206, 206, 243);
+}
 @keyframes fade {
     0% {
         opacity: 0;

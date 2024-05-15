@@ -58,7 +58,6 @@
     .side-bar img{
         width: 100%;
         height: 400px;
-        background-color: black;
     }
     .side-bar img, .side-bar h3, .side-bar p{
         margin: 0.1rem auto;
@@ -71,11 +70,12 @@
     .sided h3{
         position: absolute;
         justify-content: end;
-        left: 90px;
-        top: 5px;
+        left: 100px;
+        top: 10px;
         color: white;
     }
     .side-bar p{
         padding: 2px;
     }
+    img:hover {box-shadow: 0 0 50px #333;}
 }
