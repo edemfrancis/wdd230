@@ -155,7 +155,7 @@ main h2, main p{
     justify-content: end;
     left: 90px;
     top: 5px;
-    color: white;
+    color: rgb(255, 0, 0);
 }
 .side-bar p{
     background-color: rgb(4, 21, 22);
