@@ -23,14 +23,13 @@
   --primary-color: #5DD5A9   ;
   --nav-hover-background-color: #5dd5a9;
 }
-input[type=text], input[type=range], input[type=radio] {
+input[type=range]{
 	margin: 1rem;
 	padding: 0.5em;
 }
 
 #r {
 	width: 212px;
-	margin-bottom: 0;
 }
 
 #rangevalue {
@@ -46,6 +45,10 @@ input[type=text], input[type=range], input[type=radio] {
 
 #rangevalues option {
 	flex: 1 1 auto;
+}
+.datalist{
+  margin-top: -4rem;
+  padding: 1rem;
 }
 
 

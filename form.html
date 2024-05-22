@@ -52,27 +52,28 @@
                     <span id="emailError" style="color:red; display:none;">Please enter a valid @byui.edu email address.</span>
                     <br>
                 </fieldset>
+                <div class="datalist">
+                <label for="r">Rate Us from <b>1 - 10</b></label>
+                <div id="rangevalue">0</div>
+                <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+                </div>
+                
                 <input type="submit" value="Sign in">
             </form>
 
-                        
-            <label for="r">Rate Us from <b>1 - 10</b></label>
-            <div id="rangevalue">0</div>
-            <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
-            <datalist id="rangevalues">
-                <option value="0">0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-            </datalist>
-            <hr>
         </main>
         <!--  -->
         <div>
