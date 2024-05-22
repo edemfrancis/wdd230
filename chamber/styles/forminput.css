@@ -1,4 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200&family=Roboto+Serif:opsz,wght@8..144,200&display=swap');
 
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: rgb(41, 143, 20);
+  --secondary-color: rgb(31, 126, 12);
+  --accent1-color: rgb(116, 161, 78);
+  --accent2-color: white;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Grenze Gotisch";
+  --paragraph-font: Roboto Serif, Helvetica, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #0d1110;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #0d1110; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #333635; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #333635  ;
+  --nav-link-color: #c5d11d;
+  --nav-background-color: #1cbdda;
+  --nav-hover-link-color: #adaa99;
+  --primary-color: #5DD5A9   ;
+  --nav-hover-background-color: #5dd5a9;
+}
 input[type=text], input[type=range], input[type=radio] {
 	margin: 1rem;
 	padding: 0.5em;
@@ -11,7 +35,7 @@ input[type=text], input[type=range], input[type=radio] {
 
 #rangevalue {
 	font-size: 2rem;
-	color: rgb(0, 128, 64);
+	color: var(--secondary-color);
 }
 
 #rangevalues {
