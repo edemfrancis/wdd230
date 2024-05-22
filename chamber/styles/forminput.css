@@ -1,7 +1,7 @@
 
-input[type=range], input[type=radio] {
+input[type=text], input[type=range], input[type=radio] {
 	margin: 1rem;
-  padding: 0.5rem;
+	padding: 0.5em;
 }
 
 #r {
@@ -16,9 +16,10 @@ input[type=range], input[type=radio] {
 
 #rangevalues {
 	display: flex;
-	margin: 0 0.5rem 0 25px;
+	margin: 0 0 0 25px;
 	width: 207px;
 }
+
 #rangevalues option {
 	flex: 1 1 auto;
 }
