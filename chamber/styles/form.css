@@ -1,0 +1,68 @@
+#move-center{
+    max-width: 500px;
+    margin: 1rem auto;
+}
+.main-h1{text-align: center;}
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #dddd;
+    border-radius: 5px;
+    padding: .5rem 2%
+}
+form legend{
+    color: rgb(41, 143, 20);
+    padding: 0 0.5rem;
+}
+form label{
+    color: rgb(31, 126, 12);
+    display: block;
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+form div{
+    margin: 1rem;
+    color: #44a94c;
+    font-size:  1rem ;
+}
+form input[type="text"],
+form input[type="password"],
+form input[type="email"]
+    {
+    display: block;
+    border: 1px solid rgb(223, 223, 235);
+    padding: 0.75rem;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+
+form input[type="submit"]{
+    border: none;
+    background-color: rgb(73, 218, 44);
+    color: #ffff;
+    border-radius: 7px;
+    padding: 0.8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 2px #473e3e99;
+    cursor: pointer;
+
+}
+
+form input:required{
+    border-radius: 5px;
+    border-right: 8px solid red;
+}
+
+form input:required:valid{
+    border-radius: 5px;
+    border-right: 8px solid green;
+}
+
+form input[type="submit"]:hover{
+    background-color: rgb(116, 161, 78);
+    box-shadow: 4px 4px 4px black;
+}
