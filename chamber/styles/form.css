@@ -37,7 +37,7 @@ form fieldset {
     padding: .5rem 2%;
 }
 form legend{
-    color: blue;
+    color: rgb(4, 75, 4);
     padding: 0 0.5rem;
 }
 form label{
