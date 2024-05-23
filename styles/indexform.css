@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200&family=Roboto+Serif:opsz,wght@8..144,200&display=swap');
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #f1d7d5d5;
+    --secondary-color: rgb(230, 175, 175);
+    --accent1-color: rgba(241, 161, 161, 0.377);
+    --accent2-color: white;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Grenze Gotisch";
+    --paragraph-font: Roboto Serif, Helvetica, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #0d1110;  /* headlines on a white background */ 
+    --headline-color-on-color: white; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #0d1110; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #333635; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #333635  ;
+    --nav-link-color: #c5d11d;
+    --nav-background-color: #1cbdda;
+    --nav-hover-link-color: #adaa99;
+    --primary-color: #5DD5A9   ;
+    --nav-hover-background-color: #5dd5a9;
+  }
+
+#move-center{
+    margin: 0 auto;
+}
+.main-h1{text-align: center;}
+form fieldset {
+    margin: 0.2rem 0.1rem;
+    border: 1px solid #db9898dd;
+    border-radius: 5px;
+    padding: .5rem 2%;
+}
+form legend{
+    color: rgb(2, 37, 2);
+    padding: 0 0.5rem;
+}
+form label{
+    color: var(--headline-color-on-white);
+    display: block;
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+form div{
+    margin: 1rem;
+    color: var(--headline-color-on-white);
+    font-size:  1rem ;
+}
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="tel"],
+textarea 
+    {
+    display: block;
+    border: 1px solid rgb(127, 127, 187);
+    padding: 0.75rem;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+
+form input[type="submit"]{
+    border: none;
+    background-color: #b97570d5;
+    color: #ffff;
+    border-radius: 7px;
+    padding: 0.5rem;
+    width: 96%;
+    max-width: 400px;
+    margin: 1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 2px #473e3e99;
+    cursor: pointer;
+
+}
+
+form input:required{
+    border-radius: 5px;
+    border-right: 8px solid red;
+}
+
+form input:required:valid{
+    border-radius: 5px;
+    border-right: 8px solid green;
+}
+
+form input[type="submit"]:hover{
+    background-color: #caa9a7d5;
+    box-shadow: 4px 4px 4px black;
+}
