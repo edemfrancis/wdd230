@@ -2,27 +2,35 @@ const feedback = document.querySelector("#feedback1");
 const feedback2 = document.querySelector("#feedback2");
 const pass1 = document.querySelector("#password");
 const pass2 = document.querySelector("#password1");
+const email = document.querySelector("#email");
 
 pass2.addEventListener("focusout", () => {
-    if (pass1.value !== pass2.value){
+    if (pass1.value === "" || pass2.value === "") {
+        feedback.textContent = "";
+        feedback2.textContent = "";
+    } else if (pass1.value !== pass2.value) {
         pass1.value = "";
         pass2.value= "";
         pass1.focus();
-        feedback2.textContent = "❌ Is does not match your first password";
+        feedback2.textContent = "❌ Password does not match";
+        feedback.textContent = "❌";
     } else {
         feedback.textContent = "✔️";
         feedback2.textContent = "✔️";
     }
 });
-
+feedback.addEventListener("click", ()=> {
+    feedback.textContent = "";
+    feedback2.textContent = "";
+})
 
 // checking the email
 document.getElementById('move-center').addEventListener('submit', function(event) {
-    const emailInput = document.getElementById('email');
+    const emailInput = docu
     const emailError = document.getElementById('emailError');
     const emailPattern = /^[a-zA-Z0-9._%+-]+@byui\.edu$/;
 
-    if (!emailPattern.test(emailInput.value)) {
+    if (!emailPattern.test(email.value)) {
         event.preventDefault(); // Prevent the form from submitting
         emailError.style.display = 'inline';
     } else {
