@@ -8,8 +8,8 @@
     nav a{
         border-radius: 3px;
         display: block;
-        color: #fd0101f8;
-        background-color: #03a140;
+        color: #050505f8;
+        background-color: #28eb73;
         border: 1px solid rgb(0, 0, 0);
     }
     .horizontal, .horizontal.open{
@@ -78,4 +78,13 @@
         padding: 2px;
     }
     img:hover {box-shadow: 0 0 50px #333;}
+
+    /* Join form Editing */
+    #move-center{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        background-color: rgb(199, 243, 166);
+    }
+
 }

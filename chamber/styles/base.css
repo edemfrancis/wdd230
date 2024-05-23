@@ -1,16 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200&family=Roboto+Serif:opsz,wght@8..144,200&display=swap');
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: rgb(41, 143, 20);
+    --secondary-color: rgb(31, 126, 12);
+    --accent1-color: rgb(116, 161, 78);
+    --accent2-color: white;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Grenze Gotisch";
+    --paragraph-font: Roboto Serif, Helvetica, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #0d1110;  /* headlines on a white background */ 
+    --headline-color-on-color: white; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #0d1110; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #333635; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #333635  ;
+    --nav-link-color: #c5d11d;
+    --nav-background-color: #1cbdda;
+    --nav-hover-link-color: #adaa99;
+    --primary-color: #5DD5A9   ;
+    --nav-hover-background-color: #5dd5a9;
+  }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 #headerdesign, main, footer{
-    max-width: 940px;
+    max-width: 1020px;
     margin: 0rem auto;
 }
 #header{
     display: grid;
     grid-template-columns: 0.1fr 1.5fr 2fr;
-    background-color: #9ad4b1;
+    background-color: #86e283;
 }
 header{
     display: block;
@@ -18,6 +44,10 @@ header{
 h1{
     display: block;
 }
+h1,h2,h3{
+    font-family: var(--heading-font);
+}
+p{font-family: var(--paragraph-font);}
 /* Nav editing */
 nav{
     text-align: center;
@@ -35,7 +65,7 @@ nav a{
     border-radius: 3px;
     display: block;
     color: #0a0a0a;
-    background-color: #498f4f;
+    background-color: #62c26a;
     margin: 0.1rem;
     padding: 0.097rem;
 }
@@ -192,3 +222,5 @@ img{
         opacity: 1;
     }
 }
+
+/* Join form css */

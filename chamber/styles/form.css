@@ -25,18 +25,19 @@
   }
 
 #move-center{
-    max-width: 500px;
+    max-width: 800px;
     margin: 0 auto;
+    background-color: rgb(186, 235, 146);
 }
 .main-h1{text-align: center;}
 form fieldset {
-    margin: 2rem 0;
-    border: 1px solid #dddd;
+    margin: 0.2rem 0.1rem;
+    border: 1px solid #db9898dd;
     border-radius: 5px;
     padding: .5rem 2%;
 }
 form legend{
-    color: var(--primary-color);
+    color: blue;
     padding: 0 0.5rem;
 }
 form label{
@@ -52,10 +53,12 @@ form div{
 }
 form input[type="text"],
 form input[type="password"],
-form input[type="email"]
+form input[type="email"],
+form input[type="tel"],
+textarea 
     {
     display: block;
-    border: 1px solid rgb(223, 223, 235);
+    border: 1px solid rgb(127, 127, 187);
     padding: 0.75rem;
     border-radius: 5px;
     width: 100%;
@@ -72,7 +75,7 @@ form input[type="submit"]{
     padding: 0.5rem;
     width: 96%;
     max-width: 400px;
-    margin: -1rem 2% 2rem 2%;
+    margin: 1rem 2% 2rem 2%;
     box-shadow: 1px 1px 2px #473e3e99;
     cursor: pointer;
 
@@ -91,4 +94,28 @@ form input:required:valid{
 form input[type="submit"]:hover{
     background-color: rgb(116, 161, 78);
     box-shadow: 4px 4px 4px black;
+}
+/* chamber join css */
+#membership span{
+    display: block;
+}
+#h3{
+    color: black;
+    text-align: center;
+}
+.membership span{
+    text-align: center;
+    background-color: #03a140;
+}
+#membership{
+    margin: auto;
+}
+#membership p{
+    background-color: rgb(177, 228, 136);
+    border: 1px solid black;
+    margin: 0.2rem;
+}
+#membership .span{
+    background-color: rgb(177, 228, 136);
+    padding: 0.2rem;
 }
