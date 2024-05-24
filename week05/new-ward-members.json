@@ -1,0 +1,23 @@
+{
+    "familyName": "Edem",
+    "moveInDate": "12/23/2019",
+    "noPeople": 10,
+    "visited": "Bishop Nzonzo",
+    "membersInformation": [
+        {
+            "name": "Edem Francis",
+            "gender": "Male",
+            "birthdate": "27/10/2000"
+        },
+        {
+            "name": "Edem Morris",
+            "gender": "Male",
+            "birthdate": "7/10/1998"
+        },
+        {
+            "name": "Ita Ekemini",
+            "gender": "Male",
+            "birthdate": "15/04/2010"
+        }
+    ]
+}
