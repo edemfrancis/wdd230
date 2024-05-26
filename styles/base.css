@@ -139,6 +139,17 @@ h2{
     border-radius: 10px;
 }
 
+.card li{
+    margin: 5px;
+    padding: 3px;
+}
+.card a{
+    padding: 1px;
+}
+.card a:hover{
+    border-radius: 3px;
+    background-color: rgb(235, 188, 181);
+}
 .card {
     margin: 2rem 4vw;
     border-radius: 10px;
