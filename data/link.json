@@ -2,7 +2,7 @@
     "weeks": 
     [
         {
-            "week": "Week 1",
+            "week1": "Week 1",
             "links": [
               {
                 "url":"week01/holygrail.html",
