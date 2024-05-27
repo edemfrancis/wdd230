@@ -139,24 +139,44 @@ h2{
     border-radius: 10px;
 }
 
-.card li{
-    margin: 5px;
-    padding: 3px;
+section:hover{
+    background-color: rgb(240, 225, 223);
 }
-.card a{
-    padding: 1px;
+
+/* main section css */
+#section{
+    position: relative;
 }
-.card a:hover{
-    border-radius: 3px;
-    background-color: rgb(235, 188, 181);
+#section .ul li{
+    border-radius: 4px;
+    border: 1px solid #e7c4c2d5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
 }
 .card {
     margin: 2rem 4vw;
     border-radius: 10px;
-    position: relative;
 }
-.visit{
-    position: absolute;
+.ul a{
+    color: black;
+}
+ .ul{
+    margin: 0.2rem;
+    padding: 0.5rem;
+}
+.card a{
+    padding: 1px;
+}
+.card li:hover{
+    border-radius: 3px;
+    background-color: rgb(230, 202, 197);
+}
+.ul .spanner{
+    text-align: center;
+}
+#weather-icon{
+    width: 100%;
+    height: auto;
 }
 footer{
     text-align: center;
