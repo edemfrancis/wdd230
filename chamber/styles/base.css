@@ -65,12 +65,11 @@ nav a{
     border-radius: 3px;
     display: block;
     color: #0a0a0a;
-    background-color: #62c26a;
     margin: 0.1rem;
-    padding: 0.097rem;
+    padding: 0.5rem;
 }
 nav a:hover{
-    background-color: rgb(151, 184, 85);
+    background-color: rgba(202, 245, 199, 0.884);
 }
 #button::before {
     content: "☰";

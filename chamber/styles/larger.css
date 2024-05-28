@@ -2,21 +2,25 @@
     #button{display: none;}
     #headerdesign, footer{
         max-width: 98%;
-        margin: 0rem auto;
-        background-color: #fbfdfb;
+        margin: 0.1rem auto;
     }
     nav a{
         border-radius: 3px;
         display: block;
         color: #050505f8;
-        background-color: #28eb73;
         border: 1px solid rgb(0, 0, 0);
+        margin: 0;
+
     }
     .horizontal, .horizontal.open{
-        display: flex;
-        position: absolute;
-        top: 2rem;
-        right: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+    }
+    #animation{
+        background-color: #dbebdb;
+        margin: 0;
+        padding: 0;
+        
     }
     main{
         max-width: 83%;
