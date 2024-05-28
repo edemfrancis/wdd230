@@ -20,6 +20,7 @@ const footer = document.querySelector("footer");
 const navigation = document.querySelector("nav");
 const header = document.querySelector("header")
 const normalMode = document.querySelector("#normal");
+const a = document.querySelector("a");
 
 modeButton.addEventListener("click", () => {
 	if (modeButton.textContent.includes("🕶️")) {
@@ -31,6 +32,7 @@ modeButton.addEventListener("click", () => {
         navigation.style.color = "rgb(255, 255, 255)";
         header.style.background = "rgb(23, 0, 38)";
         header.style.color = "rgb(255, 255, 255)";
+        a.style.color = "rgb(255, 255, 255)";
         
 		modeButton.textContent = "🔆";
 	} else {

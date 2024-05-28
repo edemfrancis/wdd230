@@ -30,13 +30,13 @@
     box-sizing: border-box;
 }
 #headerdesign, main, footer{
-    max-width: 1020px;
+    max-width: 900px;
     margin: 0rem auto;
 }
 #header{
     display: grid;
     grid-template-columns: 0.1fr 1.5fr 2fr;
-    background-color: #86e283;
+    background-color: #03a140;
 }
 header{
     display: block;
@@ -97,7 +97,7 @@ nav a:hover{
 main{
     margin: 0 auto;
     padding: 1rem;
-    background-color: #f7f5f5;
+    background-color: #edf1ed00;
 }
 h2{
     color: white;
@@ -191,7 +191,6 @@ main h2, main p{
     background-color: rgb(4, 21, 22);
     padding: 2px;
     color: white;
-
 }
 h3{color: white;}
 #sided-1 img, #sided-1 p{
@@ -232,4 +231,115 @@ img{
 }
 .footer{
     margin: 0.5rem;
+}
+
+
+/* directory Css  */
+.main-main{
+    background-color: #20793f;
+    border-radius: 10px;
+}
+.grid-list {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #03a140;
+	text-align: center;
+    border-radius: 5px;
+}
+
+.grid-list button {
+	padding: 0.5rem;
+	font-weight: 700;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.grid-list button:hover{
+    background-color: #458867;
+    color: rgba(255, 255, 255, 0.918);
+}
+
+.grid, .article-section {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
+}
+
+.grid section, .article-section section {
+	text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.grid img {
+	border: 1px solid #fff;
+	box-shadow: 0 0 10px #333;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+}
+
+.grid h3 {
+	font-family: "Caveat", cursive;
+    font-size: 20px;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+    border-radius: 5px;
+}
+
+.list section > * {
+	margin: 0 1rem;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+.list section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+    color: #00000077;
+}
+
+.article-section section:nth-child(odd) {
+	background-color: rgba(193, 235, 180, 0.904);
+}
+
+.article-section section:hover{
+    background-color: #e3e7e5;
+    box-shadow: 0 0 020px rgb(39, 37, 37);
+}
+
+
+section h3 {
+	font-size: 1.5rem;
+}
+
+section p {
+	font-weight: 600;
+	font-size: smaller;
+}
+
+section a {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 0.85rem;
+	color: rgb(6, 6, 44);
+	letter-spacing: 1.1pt;
+}
+
+#article-section img {
+	height: 75px;
+	max-width: 100%; /* Images are jerks - Seattle*/
 }
