@@ -1,0 +1,67 @@
+{
+ "company": [
+    {
+        "name": "Pyson Utah",
+        "addresses": "https://www.churchofjesuschrist.org/temples/map?lang=eng&templeName=payson-utah-temple",
+        "phone number": "(1) 801-754-4949",
+        "website Url": "https://www.churchofjesuschrist.org/temples/details/payson-utah-temple?lang=eng",
+        "image": "https://www.churchofjesuschrist.org/imgs/595590aa805080f86e63368963860d9f3dfb3bfd/full/320%2C/0/default",
+        "membershio level": "Member by Baptism",
+        "year": 2015
+    },
+    {
+        "name": "Boise Idaho Temple",
+        "addresses": "https://www.churchofjesuschrist.org/temples/map?lang=eng&templeName=boise-idaho-temple",
+        "phone number": "(1) 208-322-4422",
+        "website Url": "https://www.churchofjesuschrist.org/temples/details/boise-idaho-temple?lang=eng",
+        "image": "https://www.churchofjesuschrist.org/imgs/0092381a1bef294a892946ccd61fb596fb39d8d1/full/320%2C/0/default",
+        "membershio level": "Member by Baptism",
+        "year": 1984
+    },
+    {
+        "name": "Oakland California",
+        "addresses": "https://www.churchofjesuschrist.org/temples/map?lang=eng&templeName=oakland-california-temple",
+        "phone number": "(1) 510-531-3200",
+        "website Url": "https://www.churchofjesuschrist.org/temples/details/oakland-california-temple?lang=eng",
+        "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/oakland-california/400x250/01-Oakland-Temple-Exterior-2236889.jpg",
+        "membershio level": "Member by Baptism",
+        "year": 1964
+    },
+    {
+        "name": "Seatle Washington Dc",
+        "addresses": "https://www.churchofjesuschrist.org/temples/map?lang=eng&templeName=seattle-washington-temple",
+        "phone number": "(1) 425-643-5144",
+        "website Url": "https://www.churchofjesuschrist.org/temples/details/seattle-washington-temple?lang=eng",
+        "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/seattle-washington/400x250/seatlle-temple-lds-933559-wallpaper.jpg",
+        "membershio level": "Member by Baptism",
+        "year": 1980
+    },
+    {
+        "name": "Portlan Oregeon",
+        "addresses": "https://www.churchofjesuschrist.org/temples/map?lang=eng&templeName=portland-oregon-temple",
+        "phone number": "(1) 503-639-7066",
+        "website Url": "https://www.churchofjesuschrist.org/temples/details/portland-oregon-temple?lang=eng",
+        "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/portland-oregon/2018/400x400/Portland-Oregon-Temple06.jpg",
+        "membershio level": "Member by Baptism",
+        "year": 1989
+    },
+    {
+        "name": "Jordan River Utah",
+        "addresses": "https://www.churchofjesuschrist.org/temples/map?lang=eng&templeName=jordan-river-utah-temple",
+        "phone number": "(1) 801-254-3003",
+        "website Url": "https://www.churchofjesuschrist.org/temples/details/jordan-river-utah-temple?lang=eng",
+        "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/jordan-river-utah/400x250/CWD_070ac208-d163-4faa-8123-c583b099c319.jpg",
+        "membershio level": "Member by Baptism",
+        "year": 1981
+    },
+    {
+        "name": "Provo Utah",
+        "addresses": "https://www.churchofjesuschrist.org/temples/map?lang=eng&templeName=provo-utah-temple",
+        "phone number": "",
+        "website Url": "https://www.churchofjesuschrist.org/temples/details/provo-utah-temple?lang=eng",
+        "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/provo-utah/400x640/provo-temple-766488-wallpaper.jpg",
+        "membershio": "Member by Baptism",
+        "year": 1972
+    }
+ ]   
+}
