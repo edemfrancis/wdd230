@@ -36,7 +36,10 @@
 #header{
     display: grid;
     grid-template-columns: 0.1fr 1.5fr 2fr;
-    background-color: #03a140;
+    background-color: #678d6321;
+}
+footer{
+    background-color: #678d6321;
 }
 header{
     display: block;
@@ -94,70 +97,64 @@ nav a:hover{
 
 /* main body editing */
 main{
-    margin: 0 auto;
-    padding: 1rem;
-    background-color: #edf1ed00;
-}
-h2{
-    color: white;
+    background-color: #b6c4bb77;
 }
 .hero-img{
-    background-color: #42634ac7;
-    padding: 0.4rem;
-
-}
-.hero-img{
-    margin: 1rem;
-    padding: 1rem;
-    height: 300px;
+    display: block;
     text-align: center;
-    border-radius: 150px;
+    border-radius: 5px;
+}
+.figure img{
+    width: 100%;
 }
 .join{
-    background-color: #7ca58b;
-    color: white;
-    margin: 10px;
-    padding: 1px;
-    border-radius: 0.2rem;
-
+    background-color: #1c7e412f;
+    padding: 0.1rem;
+    border-radius: 3px;
+    color: rgba(238, 226, 226, 0.932);
 }
 .join:hover{
-    background-color: #1a1d1c;
+    color: #313636d8;
+    background-color: #96c9a1de;
 }
-hr{
-    margin: 0.3rem;
-}
-.event-weather{
-    padding: 0.4rem;
+.event-weather, .section-3{
     display: block;
-    background-color: white;
-
-}
-
-.setter{
     margin: 0.5rem;
-    padding: 0.5rem;
-    background-color: rgba(229, 241, 233, 0.938);
+    padding: 0.2rem;
 }
-.set-sec{
-    margin: 0.5rem;
-    padding: 0.5rem;
-    background-color: rgba(203, 241, 207, 0.938);
-}
-footer div{
-    text-align: center;
-    background-color: #03a140;
-}
-
-/* discover css */
-.main{
-    border: 1px solid rgb(73, 49, 49);
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: center;
+.event-weather section{
+    background-color: #b8d8c441;
+    border: 1px solid rgba(78, 70, 70, 0.144);
     border-radius: 10px;
-    overflow: hidden;
+    margin: 0.1rem;
+    padding: 0.3rem;
+    text-align: center;
 }
+.section-3{
+    background-color: #86f09d15;
+    border: 1px solid rgba(78, 70, 70, 0.144);
+    border-radius: 10px;
+    margin: 0.1rem;
+    padding: 0.3rem;
+    text-align: center;
+}
+.set-sec a{
+    background-color: #b9ceb896;
+    margin: 0.1rem;
+    padding: 0.2rem;
+    border-radius: 3px;
+}
+.set-sec a:hover{
+    color: white;
+}
+
+footer{
+    display: block;
+    background-color: #acd1bac7;
+    text-align: center;
+}
+/* discover css */
+
 main h2, main p{
     text-align: center;
     color: black;
