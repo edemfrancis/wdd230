@@ -36,6 +36,16 @@
         border: 1px solid rgba(236, 230, 230, 0.651);
         border-radius: 0.5rem;
     }
+    /* weather css */
+    .span-humidity{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .setter .span-humidity {
+        width: 100%;
+        text-align: center;
+    }
+
     .section-3{
         padding: 0.4rem;
         display: grid;
