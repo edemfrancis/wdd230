@@ -2,8 +2,8 @@
 
 :root {
     /* change the values below to your colors from your palette */
-    --primary-color: rgb(41, 143, 20);
-    --secondary-color: rgb(31, 126, 12);
+    --primary-color: rgba(59, 160, 39, 0.623);
+    --secondary-color: rgba(31, 126, 12, 0.582);
     --accent1-color: rgb(116, 161, 78);
     --accent2-color: white;
   
@@ -39,7 +39,7 @@
     background-color: #678d6321;
 }
 footer{
-    background-color: #678d6321;
+    background-color: #e8ece821;
 }
 header{
     display: block;
@@ -160,7 +160,7 @@ main{
     border-radius: 3px;
 }
 .set-sec a:hover{
-    color: rgba(253, 250, 250, 0.849);
+    color: rgba(236, 226, 226, 0.699);
 }
 
 /* Weather Css */
@@ -281,18 +281,22 @@ img{
 .footer{
     margin: 0.5rem;
 }
+footer div p{
+    font-weight: 200rem;
+    color: rgb(0, 0, 0);
+}
 
 
 /* directory Css  */
 .main-main{
-    background-color: #20793f;
+    background-color: #afccb962;
     border-radius: 10px;
 }
 .grid-list {
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #03a140;
+	background-color: #88b89a83;
 	text-align: center;
     border-radius: 5px;
 }
@@ -304,7 +308,7 @@ img{
     cursor: pointer;
 }
 .grid-list button:hover{
-    background-color: #458867;
+    background-color: #458866d5;
     color: rgba(255, 255, 255, 0.918);
 }
 
@@ -367,7 +371,7 @@ img{
 }
 
 .article-section section:hover{
-    background-color: #e3e7e5;
+    background-color: #cde0d785;
     box-shadow: 0 0 020px rgb(39, 37, 37);
 }
 
