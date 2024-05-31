@@ -32,8 +32,6 @@ modeButton.addEventListener("click", () => {
         navigation.style.color = "rgb(255, 255, 255)";
         header.style.background = "rgb(23, 0, 38)";
         header.style.color = "rgb(255, 255, 255)";
-        a.style.color = "rgb(255, 255, 255)";
-        
 		modeButton.textContent = "🔆";
 	} else {
 		main.style.background = "#eee";

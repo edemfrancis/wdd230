@@ -22,11 +22,11 @@
         padding: 0;
     }
     main{
-        max-width: 85%;
+        max-width: 80%;
         border-radius: 0.5rem;
     }
-    .hero-img{
-        position: relative;
+    .hero-img div{
+        margin: 0.5rem;
     }
     .figure{
         display: grid;
@@ -52,10 +52,7 @@
         grid-template-columns: 1fr 1fr 1fr;   
     }
     .join{
-        position: absolute;
-        top: 13rem;
-        left: 18rem ;
-
+        margin: 1rem;
     }
     hr{
         display: none;
@@ -115,6 +112,11 @@
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
         background-color: rgb(199, 243, 166);
+    }
+
+    /* slide Show CSS */
+    .slideshow-container{
+        padding: 0;
     }
 
 }

@@ -36,8 +36,6 @@ function displayLagosWeather(data){
     humidity_span.appendChild(weatherSpan); // The reasonn why i am leaving all this one here is because i am using the doms
     humidity_span.appendChild(p);
 
-
-    console.log(data);
 }
 urlFetch();
 
@@ -49,9 +47,10 @@ const apiUrl = "https://api.openweathermap.org/data/2.5/forecast?";
 const searchbox = document.querySelector(".lat");
 const searchbutton = document.querySelector(".search button");
 const searchbox2 = document.querySelector(".lon");
+const metric = "metric";
 
 async function weather(lat, lon){
-    const response = await fetch(apiUrl + `lat=${lat}` + `&lon=${lon}` + `&appid=${apiKey}`);
+    const response = await fetch(apiUrl + `lat=${lat}` + `&lon=${lon}` + `&units=${metric}` + `&appid=${apiKey}`);
 
     if(response.status == 404){
         document.querySelector(".error").style.display = "block";
@@ -96,3 +95,43 @@ searchbutton.addEventListener("click", () => {
 })
 
 weather(10.4,4.5);
+
+
+// slide java script
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace("active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides,4000); // Change image every 2 seconds
+
+//   javascript to close slide if button-x is click
+
+}
+
+const buttonX = document.querySelector(".button-x");
+const button2 = document.querySelector(".button2");
+const button3 = document.querySelector(".button3");
+
+const slideContain = document.querySelector(".slide-container");
+buttonX.addEventListener("click", ()=>{
+  slideContain.style.display = "none";
+});
+  button2.addEventListener("click", ()=>{
+    slideContain.style.display = "none";
+});
+button3.addEventListener("click", ()=>{
+    slideContain.style.display = "none";
+});
