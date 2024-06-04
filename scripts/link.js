@@ -3,7 +3,7 @@ const currentTemp = document.querySelector("#current-temp");
 const weatherIcon = document.querySelector("#weather-icon");
 const figcaption = document.querySelector("figcaption");
 
-const url = "https://api.openweathermap.org/data/2.5/weather?q=lagos&appid=ad8f9dd0d19e36886a4588589ab06ace";
+const url = "https://api.openweathermap.org/data/2.5/weather?q=lagos&units=metric&appid=ad8f9dd0d19e36886a4588589ab06ace";
 
 async function apiFetch() {
     try {

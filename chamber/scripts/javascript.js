@@ -12,6 +12,7 @@ document.querySelector(".span3").textContent = new Date().toLocaleDateString('en
 const userName = "Edem Francis";
 document.querySelector(".span2").textContent = userName;
 
+
 // Discover Javascripts
 const visitor = document.querySelector(".visit");
 const welcome = document.querySelector(".welcome");
