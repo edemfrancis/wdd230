@@ -446,9 +446,7 @@ img {vertical-align: middle;}
     background-color: rgba(180, 67, 67, 0.788);
     border-radius: 5px;
 }
-.button-x::before{
-    content: "X";
-}
+
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
