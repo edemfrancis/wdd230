@@ -411,7 +411,7 @@ img {vertical-align: middle;}
 }
 .slideshow-container h2, .slideshow-container p{
     text-align: center;
-    background-color: #7e978a6b;
+    background-color: #ccddd45b;
 }
 .slideshow-container h3{
     color: rgb(253, 253, 253);
@@ -436,6 +436,9 @@ img {vertical-align: middle;}
     width: 80%;
     margin: 0.5rem auto;
 }
+button:hover{
+    cursor: pointer;
+}
 .button-x{
     margin: 0.5rem;
     padding: 8px 12px;
@@ -448,7 +451,7 @@ img {vertical-align: middle;}
 }
 
 .numbertext {
-  color: #f2f2f2;
+  color: #ff0101;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
