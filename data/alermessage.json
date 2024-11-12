@@ -1,0 +1,12 @@
+[
+    {
+        "message": "New products available!",
+        "backgroundColor": "#ffeb3b",
+        "textColor": "000000"
+    },
+    {
+        "message": "Flash sale starts at 3PM!",
+        "backgroundColor": "#f44336",
+        "textColor": "ffffff"
+    }
+]
