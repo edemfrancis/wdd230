@@ -70,13 +70,11 @@ header span {
 .image{
     width: 26px;
 }
-
 a{
     text-decoration: none;
 }
 /* Navigation css is here */
  nav{
-    
     display: block;
 }
 

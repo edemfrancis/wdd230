@@ -14,6 +14,7 @@ button.addEventListener("click", () => {
     button.classList.toggle('open');
 })
 
+// Creating dark mode and light mode
 const modeButton = document.querySelector("#mode");
 const main = document.querySelector("main");
 const footer = document.querySelector("footer");
